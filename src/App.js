@@ -23,10 +23,11 @@ function App() {
     ]
     return (
         <div className="App">
-            <Todolist title="What to learn"/>
+            <Todolist title="A" cards={card1}/>
+            <Todolist title="B" cards={card2}/>
+            <Todolist title="C" cards={card3}/>
         </div>
     );
 }
-
 
 export default App;
