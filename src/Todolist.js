@@ -3,8 +3,8 @@ import React from 'react';
 
 export type CardsType = {
     title: string,
-    reitingStars: number,
-    recomendations: string
+    watching: boolean,
+    recommendations: string
 }
 
 type PropsType = {
