@@ -7,6 +7,7 @@ export type CardsType = {
     recommendations: string
 }
 
+
 type PropsType = {
     title: string,
     cards: Array<CardsType>
